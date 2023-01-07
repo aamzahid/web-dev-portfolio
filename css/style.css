@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+/* header banner style */
+.banner{
+    background-image: url("/images/banner/banner2.png");
+    height: 810px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    text-align: right;
+    
+}
+.banner-info{
+    
+    padding: 200px 230px 365px 845px;
+
+} 
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #151414;
+    
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+
+.btn-primary{
+    color: aliceblue;
+    background-color: rgba(1, 149, 255, 0.464);
+    border: 0;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+/* Profile style  */
+.profile{
+    display: flex;
+    gap: 100px;
+    margin-left: 210px;
+    margin-right: 320px;
+}
+
+.info{
+    padding-top: 300px ;
+    padding-right: 320px;
+}
+.info-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.info-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.tick{
+    color: aquamarine;
+}
+
+li{
+    margin: 10px 0;
+    align-items: left;
+}
+
+/* myplan style  */
+.myplan{
+    margin-top: 130px;
+}
+.myplan-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 350px;
+    color: #151414;
+}
+.myplan-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+    text-align: center;
+    margin-right: 350px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    margin-top: 50px;
+    margin-left:220px;
+    margin-right: 600px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.skill-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #444343;
+}
+.call{
+    background-image: url("/images/gradient1.png"),url("/images/watch.png");
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-left: 220px;
+    margin-top: 125px;
+    padding: 60px 260px 60px 60px;
+}
+.call-title{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 40px
+    
+}
+.btn-call{
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 30px;
+    background-color: aliceblue;
+    color:  rgba(1, 149, 255, 0.464);
+    margin-top: 40px;
+}
+
+/* footer  */
+
+.footer{
+    display: flex;
+    gap: 100px;
+    width: 1600px;
+    background: #151414;
+    
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: aliceblue;
+    margin-left: 224px;
+    margin-top: 130px;
+}
+.contact p{
+    font-weight: 400;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 10px ;
+    margin-left: 220px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+}
+
+.subscribe{
+    margin-top: 130px;
+}
+.subscribe input{
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius:5px ;
+    padding: 15px 15px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;    
+}
+
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: aliceblue;
+}
+.works{
+    width: 1600px;
+}
+.project-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 5px;
+
+}
+.project-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.project-show{
+    display: flex;
+    gap: 18px;
+    margin-left: 220px;
+    margin-right: 320px;
+    
+}
+.project-show img{
+    height: 400px;
+    width: 370px;
+}
+
+
+
